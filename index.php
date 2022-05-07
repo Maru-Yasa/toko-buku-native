@@ -34,7 +34,7 @@ if (!isset($_GET['cari'])) {
               </p>
           </div>
         </div>
-        <div class="col-10 p-5 mt-5">
+        <div class="col-10 p-5 mt-5" id="buku">
           <h1><?= $msg ?></h1>
           <div class="row justify-content-center">
             <?php if (count($books) !== 0) { ?>

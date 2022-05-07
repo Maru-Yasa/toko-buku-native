@@ -29,7 +29,7 @@ if(isset($_SESSION['isAuthenticated'])){
                         Halo, <?= $_SESSION['user']['username'] ?>
                      </span>
                      <br>
-                     <a class="btn btn-sm btn-outline-primary" href="/admin/edit_profile.php?id=<?= $_SESSION['user']['id'] ?>"> <i class="bi bi-pencil-fill"></i> Edit profile</a>
+                     <a class="btn btn-sm btn-outline-primary" href="/admin/user/edit.php?id=<?= $_SESSION['user']['id'] ?>"> <i class="bi bi-pencil-fill"></i> Edit profile</a>
                   </div>
                </div>
             </div>
