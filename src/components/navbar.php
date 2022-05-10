@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-dark bg-primary">
+<nav class="navbar navbar-expand navbar-dark" style="background-color: #A85CF9;">
   <div class="container">
     <div class="nav navbar-nav">
       <div class="navbar-brand">

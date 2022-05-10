@@ -20,10 +20,10 @@ if(isset($_SESSION['isAuthenticated'])){
         <div class="row">
             <?php require_once('../src/components/sidebar.php'); ?>
             <div class="col-sm p-3 min-vh-100 row justify-content-center">
-               <div class="col-12 row justify-content-center">
-                  <h1 class="text-primary mx-3">Dashboard</h1>
-                  <div class="text-center">
-                     <i class="bi bi-person-circle text-primary" style="font-size: 70px;"></i>
+               <div class="col-12 row justify-content-center" style="color: #A85CF9;">
+                  <h1 style="color: #A85CF9;" class="text-primary mx-3">Dashboard</h1>
+                  <div class="text-center" style="color: #A85CF9;">
+                     <i class="bi bi-person-circle" style="font-size: 70px;"></i>
                      <br>
                      <span class="fs-3 mb-2">
                         Halo, <?= $_SESSION['user']['username'] ?>

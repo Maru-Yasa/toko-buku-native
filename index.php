@@ -29,7 +29,7 @@ if (!isset($_GET['cari'])) {
               <p class="lead">
               <form action="" method="get" class="col-10 col-md-6">
                 <input name="cari" type="text" class="form-control form-control-lg rounded-pill" placeholder="Cari Buku">
-                <button class="btn btn-outline-primary btn-lg rounded-pill mt-3" type="submit"> <i class="bi bi-search"></i> Cari</button>
+                <button style="background-color: #A85CF9;" class="btn btn-lg rounded-pill mt-3" type="submit"> <i class="bi bi-search"></i> Cari</button>
               </form>
               </p>
           </div>
@@ -45,7 +45,7 @@ if (!isset($_GET['cari'])) {
                   <div class="card-body d-flex flex-column mt-auto">
                     <h3 class="card-title"><?= $value['judul'] ?></h3>
                     <p class="card-text"><?= $value['sinopsis'] ?></p>
-                    <a href="javascript:void(0)" class="btn btn-outline-primary mt-3 d-block mt-auto"> <i class="bi bi-cart-fill"></i> - Rp <?= $value['harga'] ?></a>   
+                    <a style="background-color: #A85CF9;" href="javascript:void(0)" class="btn mt-3 d-block mt-auto"> <i class="bi bi-cart-fill"></i> - Rp <?= $value['harga'] ?></a>   
 
                   </div>
                 </div>

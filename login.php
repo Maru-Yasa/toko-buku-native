@@ -42,7 +42,7 @@ if (isset($_POST['username'])) {
       <?= $msg ?>
       <div class="row justify-content-center">
         <div class="col-11 col-md-5 p-5 shadow rounded col-lg-5 mt-5">
-            <h2 class="text-primary fs-1">Login</h2>
+            <h2 style="color: #A85CF9;" class="fs-1">Login</h2>
             <form action="" method="POST">
                 <div class="mb-3 mt-3">
                   <label for="" class="form-label">Username</label>
@@ -53,7 +53,7 @@ if (isset($_POST['username'])) {
                   <input type="password" name="password" id="" class="form-control" placeholder="" aria-describedby="helpId">
                 </div>
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button style="background-color: #A85CF9;" type="submit" class="btn">Login</button>
                 </div>
             </form>
 
